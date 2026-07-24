@@ -5,7 +5,7 @@ $pageTitle = 'Home';
 $upcoming = getNextActivities($conn, 4);
 $featuredResult = getNextActivities($conn, 1);
 $featured = mysqli_fetch_assoc($featuredResult);
-require 'includes/header.php'; 
+require 'includes/header.php';
 ?>
 <section class="hero section-space">
     <div class="container hero-grid">
